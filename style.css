@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+header {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+}
+.logotipo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+}
+.pata {
+  height: 50%;
+  margin-right: 05px;
+}
+p {
+  color: white;
+  height: 30%;
+  font-size: 20px;
+}
+div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  /*margin-left: 60px;*/
+}
+img {
+  margin-right: 30px;
+  justify-content: space-evenly;
+}
+.inauguração {
+  height: 120vh;
+  width: 100%;
+  background-image: url("cachorro1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boas {
+  width: 40%;
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20rem;
+}
+.patinha {
+  width: 20vh;
+  position: relative;
+  bottom: 17rem;
+  left: 1rem;
+  /*margin-top: 1px;*/
+}
+.cachorro2 {
+  height: 120vh;
+  background-image: url("cachorro2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 13rem;
+}
+.cao2 {
+  color: #3a342f;
+  font-size: 4rem;
+  flex-direction: row;
+  font-weight: 900;
+  position: static;
+}
+.pet {
+  margin-top: 10px;
+  color: #3a342f;
+  font-size: 2.2rem;
+  width: 35%;
+}
+button {
+  margin-top: 20px;
+  width: 25vh;
+  height: 08vh;
+  color: #f4f2f3;
+  background-color: #3a342f;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+.cachorro3 {
+  height: 120vh;
+  width: 100%;
+  background-image: url("cao3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 60rem;
+  justify-content: center;
+  margin-right: 7rem;
+}
+.mordo {
+  color: white;
+  margin-top: 32px;
+  font-size: 4rem;
+  margin-right: ;
+}
+.espaço3 {
+  font-size: 25px;
+  margin-right: ;
+  position: relative;
+}
+.apoio {
+  color: #fd6a9a;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.patrocinio {
+  height: 6vh;
+  width: 5%;
+}
+h3 {
+  height: 5vh;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #eb4a7b;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.listaordenada {
+  margin-top: 10vh;
+  color: white;
+  width: 50%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+.finais {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.final1 {
+  list-style-type: none;
+  margin-right: 55px;
+}
+
+.final2 {
+  list-style-type: none;
+}
+.final3 {
+  list-style-type: none;
+}
